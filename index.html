@@ -185,10 +185,10 @@
   <section class="cx-page" id="overview" data-page="overview">
     <div class="cx-tiles">
       <div class="cx-tile"><span class="k">Comparator schools shown</span><span class="v" id="t-n" data-source="headline" data-field="n_comparators">—</span><span class="s">plus the University of Sydney</span></div>
-      <div class="cx-tile"><span class="k">Our master's degrees</span><span class="v" id="t-us" data-source="headline" data-field="usyd_masters">—</span><span class="s">like-for-like, against a comparator median of <b id="t-med" data-source="headline" data-field="median_masters">—</b></span></div>
-      <div class="cx-tile"><span class="k">Our rank on master's count</span><span class="v" id="t-rank" data-source="headline" data-field="usyd_rank">—</span><span class="s">of <span id="t-ranked" data-source="headline" data-field="n_ranked">—</span> schools, largest portfolio first</span></div>
-      <div class="cx-tile"><span class="k">Our specialisations</span><span class="v" id="t-spec" data-source="headline" data-field="usyd_specs">—</span><span class="s">comparator median <b id="t-specmed" data-source="headline" data-field="median_specs">—</b></span></div>
-      <div class="cx-tile"><span class="k">Our exec ed programmes</span><span class="v" id="t-ee" data-source="headline" data-field="usyd_execed">—</span><span class="s">comparator median <b id="t-eemed" data-source="headline" data-field="median_execed">—</b></span></div>
+      <div class="cx-tile"><span class="k">Sydney's master's degrees</span><span class="v" id="t-us" data-source="headline" data-field="usyd_masters">—</span><span class="s">like-for-like, against a comparator median of <b id="t-med" data-source="headline" data-field="median_masters">—</b></span></div>
+      <div class="cx-tile"><span class="k">Sydney's rank on master's count</span><span class="v" id="t-rank" data-source="headline" data-field="usyd_rank">—</span><span class="s">of <span id="t-ranked" data-source="headline" data-field="n_ranked">—</span> schools, largest portfolio first</span></div>
+      <div class="cx-tile"><span class="k">Sydney's specialisations</span><span class="v" id="t-spec" data-source="headline" data-field="usyd_specs">—</span><span class="s">comparator median <b id="t-specmed" data-source="headline" data-field="median_specs">—</b></span></div>
+      <div class="cx-tile"><span class="k">Sydney's exec ed programmes</span><span class="v" id="t-ee" data-source="headline" data-field="usyd_execed">—</span><span class="s">comparator median <b id="t-eemed" data-source="headline" data-field="median_execed">—</b></span></div>
     </div>
     <div class="cx-card" id="card-register">
       <h2>School register</h2>
@@ -225,7 +225,7 @@
 
   <section class="cx-page" id="disciplines" data-page="disciplines" hidden>
     <div class="cx-card" id="card-presence">
-      <h2>Where comparators teach and we do not</h2>
+      <h2>Where comparators teach and the University of Sydney does not</h2>
       <p class="cx-note">Share of comparator schools with a like-for-like coursework award in each discipline, as its main or a named discipline, and share offering it as a specialisation inside a broader award. Ticks show what the University of Sydney offers.</p>
       <div class="cx-tablebox">
         <table id="pres-table" data-source="presence" data-row-key="key">
@@ -233,8 +233,8 @@
             <th data-field="discipline_label"><button data-k="discipline_label">Discipline</button></th>
             <th class="n" data-field="award_share"><button data-k="award_share">Comparators with an award</button></th>
             <th class="n" data-field="spec_share"><button data-k="spec_share">With a specialisation</button></th>
-            <th data-field="usyd_award"><button data-k="usyd_award">We have an award</button></th>
-            <th data-field="usyd_spec"><button data-k="usyd_spec">We have a specialisation</button></th>
+            <th data-field="usyd_award"><button data-k="usyd_award">Sydney has an award</button></th>
+            <th data-field="usyd_spec"><button data-k="usyd_spec">Sydney has a specialisation</button></th>
           </tr></thead>
           <tbody></tbody>
         </table>
@@ -256,7 +256,7 @@
       </div>
       <div class="cx-card" id="card-generalist">
         <h2>Generalist and MiM master's</h2>
-        <p class="cx-note">The degrees closest to our MCom and MMGT, with the number of specialisations each publishes.</p>
+        <p class="cx-note">The degrees closest to Sydney's MCom and MMGT, with the number of specialisations each publishes.</p>
         <div class="cx-tablebox">
           <table id="gen-table" data-source="generalist" data-row-key="program_id">
             <thead><tr>
@@ -283,7 +283,7 @@
     <div class="cx-grid">
       <div class="cx-card" id="card-topics">
         <h2>Topics</h2>
-        <p class="cx-note">Programmes by topic across the comparators shown, beside our own count.</p>
+        <p class="cx-note">Programmes by topic across the comparators shown, beside Sydney's count.</p>
         <div class="cx-chart" id="tp-chart" data-source="topics"></div>
       </div>
       <div class="cx-card" id="card-units">
@@ -308,12 +308,12 @@
   <section class="cx-page" id="rankings" data-page="rankings" hidden>
     <div class="cx-card" id="card-rankgrid">
       <h2>Who is ranked where</h2>
-      <p class="cx-note">Each school's place in the latest edition of each QS, FT and AFR table we track: darker is higher, relative to how many the table ranks. A blank cell means not ranked there. Where a school has two programmes in one table, the better place is shown. AFR's tables are Australian and were read for the Australian schools. The University of Sydney is the first column.</p>
+      <p class="cx-note">Each school's place in the latest edition of each QS, FT and AFR table covered: darker is higher, relative to how many the table ranks. A blank cell means not ranked there. Where a school has two programmes in one table, the better place is shown. AFR's tables are Australian and were read for the Australian schools. The University of Sydney is the first column.</p>
       <div class="cx-scroll"><div class="cx-chart" id="rg-chart" data-source="rank_grid" style="min-height:20rem"></div></div>
     </div>
     <div class="cx-card" id="card-absent">
-      <h2>Tables comparators are in and we are not</h2>
-      <p class="cx-note">Every table read in full in which the University of Sydney is not ranked, with how many of the comparators shown are, the best placed, and what we have of that kind.</p>
+      <h2>Tables comparators are in and the University of Sydney is not</h2>
+      <p class="cx-note">Every table read in full in which the University of Sydney is not ranked, with how many of the comparators shown are, the best placed, and what Sydney has of that kind.</p>
       <div class="cx-tablebox">
         <table id="abs-table" data-source="rank_absent" data-row-key="key">
           <thead><tr>
@@ -321,7 +321,7 @@
             <th data-field="edition"><button data-k="edition">Edition</button></th>
             <th class="n" data-field="n_shown"><button data-k="n_shown">Comparators ranked</button></th>
             <th data-field="best"><button data-k="best">Best placed</button></th>
-            <th data-field="ours"><button data-k="ours">What we have</button></th>
+            <th data-field="sydney"><button data-k="sydney">What Sydney has</button></th>
           </tr></thead>
           <tbody></tbody>
         </table>
@@ -403,7 +403,7 @@ window.CX = {
   },
   FAMILY: { mim: 'MiM', generalist_business: 'Generalist (MCom type)', specialist_masters: 'Specialist', mba: 'MBA', emba: 'Executive MBA', executive_masters: 'Executive master’s', professional_doctorate: 'Professional doctorate', research: 'Research', other: 'Other' },
   LEVEL: { graduate_certificate: 'Grad cert', graduate_diploma: 'Grad dip', masters: 'Master’s', doctorate: 'Doctorate', other: 'Other' },
-  TIER: { baseline: 'Us', go8: 'Go8', sydney_market: 'Sydney market', hong_kong: 'Hong Kong', international: 'International' },
+  TIER: { baseline: 'University of Sydney', go8: 'Go8', sydney_market: 'Sydney market', hong_kong: 'Hong Kong', international: 'International' },
   STRUCT: { in_school: 'In the school', separate_entity: 'Separate entity', university_central: 'University-wide unit', partnered: 'Through a partner', none_found: 'None found' },
   short(u) { return u.replace(/^The /, '').replace(/University of /, '').replace(/ University$/, '').replace(/ and Political Science$/, '').replace(/ of Economics and Business$/, ''); },
   disc(d) { const s = d.replace(/_/g, ' '); return s.charAt(0).toUpperCase() + s.slice(1); },
@@ -415,7 +415,7 @@ window.CX = {
 /* Calculations: each reads only the attached tables and constants written inside it. */
 dash.calc('headline', {
   title: 'Headline figures by group',
-  description: 'For each group of schools: comparator count, our like-for-like master\u2019s, specialisations and exec ed programmes, and the comparator medians.',
+  description: 'For each group of schools: comparator count, Sydney\u2019s like-for-like master\u2019s, specialisations and exec ed programmes, and the comparator medians.',
   inputs: ['schools'],
   fn: (schools) => {
     const GROUPS = ['all', 'set', 'wider', 'australia', 'asia', 'europe', 'north_america'];
@@ -443,7 +443,7 @@ dash.calc('register', {
   inputs: ['schools'],
   fn: (schools) => {
     const short = (u) => u.replace(/^The /, '').replace(/University of /, '').replace(/ University$/, '').replace(/ and Political Science$/, '').replace(/ of Economics and Business$/, '');
-    const TIER = { baseline: 'Us', go8: 'Go8', sydney_market: 'Sydney market', hong_kong: 'Hong Kong', international: 'International' };
+    const TIER = { baseline: 'University of Sydney', go8: 'Go8', sydney_market: 'Sydney market', hong_kong: 'Hong Kong', international: 'International' };
     return schools.map((s) => ({
       school_id: s.school_id, school: short(s.university), country: s.country, region: s.region, tier: s.tier,
       tier_label: TIER[s.tier] || s.tier,
@@ -471,7 +471,7 @@ dash.calc('family_mix', {
 
 dash.calc('presence', {
   title: 'Discipline presence',
-  description: 'Per group and discipline: share of comparator schools with a like-for-like coursework award or a specialisation in it, and whether we have one.',
+  description: 'Per group and discipline: share of comparator schools with a like-for-like coursework award or a specialisation in it, and whether Sydney has one.',
   inputs: ['programs', 'specialisations', 'schools'],
   fn: (programs, specialisations, schools) => {
     const GROUPS = ['all', 'set', 'wider', 'australia', 'asia', 'europe', 'north_america'];
@@ -523,7 +523,7 @@ dash.calc('matrix', {
 
 dash.calc('spec_disc', {
   title: 'Specialisation disciplines by group',
-  description: 'Per group and discipline: share of comparator schools offering a specialisation in it, and whether we do.',
+  description: 'Per group and discipline: share of comparator schools offering a specialisation in it, and whether Sydney does.',
   inputs: ['specialisations', 'schools'],
   fn: (specialisations, schools) => {
     const GROUPS = ['all', 'set', 'wider', 'australia', 'asia', 'europe', 'north_america'];
@@ -578,7 +578,7 @@ dash.calc('execed_mix', {
 
 dash.calc('topics', {
   title: 'Exec ed topics by group',
-  description: 'Per group and topic: programmes across the comparators shown, and our own count.',
+  description: 'Per group and topic: programmes across the comparators shown, and Sydney\u2019s count.',
   inputs: ['execed_offerings', 'schools'],
   fn: (execed_offerings, schools) => {
     const GROUPS = ['all', 'set', 'wider', 'australia', 'asia', 'europe', 'north_america'];
@@ -631,8 +631,8 @@ dash.calc('rank_grid', {
 });
 
 dash.calc('rank_absent', {
-  title: 'Tables we are absent from',
-  description: 'For each group of schools: tables read in full where the University of Sydney is not ranked, the comparators that are, and what we have of that kind.',
+  title: 'Tables Sydney is absent from',
+  description: 'For each group of schools: tables read in full where the University of Sydney is not ranked, the comparators that are, and what Sydney has of that kind.',
   inputs: ['program_rankings', 'specialisations'],
   fn: (program_rankings, specialisations) => {
     const GROUPS = ['all', 'set', 'wider', 'australia', 'asia', 'europe', 'north_america'];
@@ -647,13 +647,13 @@ dash.calc('rank_absent', {
       const ranking = u.provider + ' ' + u.label;
       const others = latest.filter((r) => r.provider === u.provider && r.label === u.label && r.school_id !== 'usyd' && r.rank_num !== '');
       const spec = specialisations.find((s) => s.school_id === 'usyd' && s.award_category === 'coursework' && (DISC[u.type] || []).includes(s.discipline));
-      const ours = u.program_title ? u.program_title + ', not ranked here'
+      const sydney = u.program_title ? u.program_title + ', not ranked here'
         : spec ? 'Only a specialisation: ' + spec.name + ' in the ' + spec.program_title
-        : u.type === 'Executive education' ? 'Our exec ed, not ranked here' : 'No programme of this kind';
+        : u.type === 'Executive education' ? 'Exec ed, not ranked here' : 'No programme of this kind';
       for (const g of GROUPS) {
         const seen = new Map();
         for (const r of others.filter((x) => inGroup(x, g)).sort((a, b) => Number(a.rank_num) - Number(b.rank_num))) if (!seen.has(r.school_id)) seen.set(r.school_id, short(r.university) + ' ' + r.rank);
-        out.push({ key: g + '|' + ranking, group: g, ranking, edition: u.edition, n_shown: seen.size, best: [...seen.values()].slice(0, 3).join(' · '), ours });
+        out.push({ key: g + '|' + ranking, group: g, ranking, edition: u.edition, n_shown: seen.size, best: [...seen.values()].slice(0, 3).join(' · '), sydney });
       }
     }
     return out;
@@ -818,9 +818,9 @@ dash.calc('awards_table', {
       const h = H.data.find((r) => r.group === g);
       take.replaceChildren();
       const sp = (field, text) => { const e = document.createElement('b'); e.dataset.source = 'headline'; e.dataset.field = field; e.dataset.where = 'group=' + g; e.textContent = text; return e; };
-      take.append('We offer ', sp('usyd_masters', fmtInt(h.usyd_masters)), ' like-for-like master’s against a median of ', sp('median_masters', fmtInt(h.median_masters)),
+      take.append('The University of Sydney offers ', sp('usyd_masters', fmtInt(h.usyd_masters)), ' like-for-like master’s against a median of ', sp('median_masters', fmtInt(h.median_masters)),
         ' across ', sp('n_comparators', fmtInt(h.n_comparators)), ' comparators shown, ranking ', sp('usyd_rank', fmtInt(h.usyd_rank)), ' of ', sp('n_ranked', fmtInt(h.n_ranked)),
-        '. We publish ', sp('usyd_specs', fmtInt(h.usyd_specs)), ' specialisations (median ', sp('median_specs', fmtInt(h.median_specs)), ') and run ', sp('usyd_execed', fmtInt(h.usyd_execed)),
+        '. It publishes ', sp('usyd_specs', fmtInt(h.usyd_specs)), ' specialisations (median ', sp('median_specs', fmtInt(h.median_specs)), ') and runs ', sp('usyd_execed', fmtInt(h.usyd_execed)),
         ' exec ed programmes (median ', sp('median_execed', fmtInt(h.median_execed)), ').');
       for (const [id, f] of [['t-n', 'n_comparators'], ['t-us', 'usyd_masters'], ['t-med', 'median_masters'], ['t-rank', 'usyd_rank'], ['t-ranked', 'n_ranked'], ['t-spec', 'usyd_specs'], ['t-specmed', 'median_specs'], ['t-ee', 'usyd_execed'], ['t-eemed', 'median_execed']]) {
         const e = document.getElementById(id); e.dataset.where = 'group=' + g; e.textContent = h[f] == null ? '—' : fmtInt(h[f]);
@@ -908,7 +908,7 @@ dash.calc('awards_table', {
           const y = 16 + i * (bar + gap);
           svg.append('text').attr('class', 'lab').attr('x', labW - 8).attr('y', y + bar / 2 + 4).attr('text-anchor', 'end').text(CX.disc(r.discipline));
           svg.append('rect').attr('x', labW).attr('y', y).attr('width', Math.max(1, x(r.share) - labW)).attr('height', bar).attr('rx', 3).attr('fill', dash.colors[0])
-            .on('mousemove', (ev) => tipAt(el, ev, [CX.disc(r.discipline), `${fmtPct(r.share)} of comparators shown`, r.usyd === 'yes' ? 'We offer it' : 'We do not offer it'])).on('mouseleave', hideTip);
+            .on('mousemove', (ev) => tipAt(el, ev, [CX.disc(r.discipline), `${fmtPct(r.share)} of comparators shown`, r.usyd === 'yes' ? 'Sydney offers it' : 'Sydney does not offer it'])).on('mouseleave', hideTip);
           svg.append('circle').attr('cx', x(r.share) + 10).attr('cy', y + bar / 2).attr('r', 4).attr('fill', r.usyd === 'yes' ? 'var(--color-fg)' : 'var(--color-bg)').attr('stroke', 'var(--color-fg)');
           svg.append('text').attr('x', x(r.share) + 18).attr('y', y + bar / 2 + 4).text(fmtPct(r.share));
         });
@@ -948,8 +948,8 @@ dash.calc('awards_table', {
           const y = 16 + i * (bar + gap);
           svg.append('text').attr('class', 'lab').attr('x', labW - 8).attr('y', y + bar / 2 + 4).attr('text-anchor', 'end').text(CX.disc(r.topic));
           svg.append('rect').attr('x', labW).attr('y', y).attr('width', Math.max(1, x(r.comparators) - labW)).attr('height', bar).attr('rx', 3).attr('fill', dash.colors[1])
-            .on('mousemove', (ev) => tipAt(tel, ev, [CX.disc(r.topic), `${fmtInt(r.comparators)} comparator programmes`, `${fmtInt(r.usyd)} of ours`])).on('mouseleave', hideTip);
-          svg.append('text').attr('x', x(r.comparators) + 6).attr('y', y + bar / 2 + 4).text(`${fmtInt(r.comparators)} · us ${fmtInt(r.usyd)}`);
+            .on('mousemove', (ev) => tipAt(tel, ev, [CX.disc(r.topic), `${fmtInt(r.comparators)} comparator programmes`, `${fmtInt(r.usyd)} at Sydney`])).on('mouseleave', hideTip);
+          svg.append('text').attr('x', x(r.comparators) + 6).attr('y', y + bar / 2 + 4).text(`${fmtInt(r.comparators)} · Sydney ${fmtInt(r.usyd)}`);
         });
       }
       const U = state('units');
@@ -994,7 +994,7 @@ dash.calc('awards_table', {
         });
       }
       const A = state('rank_absent');
-      if (A.status === 'ok') table('#abs-table', A.data.filter((r) => r.group === g), ['ranking', 'edition', 'n_shown', 'best', 'ours'], { key: 'key', sort: { k: 'n_shown', dir: -1 } });
+      if (A.status === 'ok') table('#abs-table', A.data.filter((r) => r.group === g), ['ranking', 'edition', 'n_shown', 'best', 'sydney'], { key: 'key', sort: { k: 'n_shown', dir: -1 } });
       const K = state('rank_list');
       if (K.status === 'ok') {
         const ty = $('#rk-type').value, q = $('#rk-q').value.trim().toLowerCase();
